@@ -37,5 +37,37 @@ body {
     width: 100%;
     background-image: url('https://fondosmil.com/fondo/17542.jpg');
   }
+  #card1{
+    position: absolute;
+top: 20%; left: 30%;
+}
+#card2{
+    position: absolute;
+top: 20%; left: 5%;
+}
+#card3{
+    position: absolute;
+top: 20%; left: 55%;
+}
+#card4{
+    position: absolute;
+top: 20%; left: 80%;
+}
 
+#card5{
+    position: absolute;
+top: 50%; left: 5%;
+}
+#card6{
+    position: absolute;
+top: 50%; left: 30%;
+}
+#card7{
+    position: absolute;
+top: 50%; left: 55%;
+}
+#card8{
+    position: absolute;
+top: 50%; left: 80%;
+}
 
