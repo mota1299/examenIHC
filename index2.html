@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen</title>
+    <script src="main.js" defer></script>
+    <!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    
+</head>
+<body>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000">
+
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="#">Animaciones</a>
+
+        <!-- Links -->
+
+    <!-- Collapsible content -->
+
+</nav>
+<!--/.Navbar-->
+
+    <!-- Carga de imágenes -->
+       
+                        <div class="card col-md-3 p-3" id ="carga">
+                            <div class="card-header">Carga de Imagen</div>
+                            <div class="card-body">
+                                <div class="form-outline">
+                                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+                                  <input type="url" placeholder="Ingrese URL de la imagen" id="url">
+                                  <button type="button" class="btn btn-outline-dark" data-mdb-ripple-color="dark"  onchange="ver2()" style=" top: 1px; left:90px;">
+                                    <i class="fas fa-download"></i></button>
+                                
+                                      <div class="custom-file">
+                                        <input type="file" class="custom-file-input" id="file"
+                                            aria-describedby="inputGroupFileAddon01" onchange="ver()" >
+                                        <label class="custom-file-label" for="inputGroupFile01">Desde archivo</label></div>
+                                  </div>
+                                  
+                            </div>
+                          </div>
+<!-- Fin de carga de imagen-->
+<!--Comandos-->
+<div class="card" id="comandos" style="width: 22rem">
+    
+    <div class="card-header">Comandos de voz</div>
+    <ul class="list-group list-group-flush" id="lista">
+      <li class="list-group-item">Comando 1</li>
+      <li class="list-group-item">Comando 2</li>
+      <li class="list-group-item">Comando 3</li>
+      <li class="list-group-item">Comando 4</li>
+      <li class="list-group-item">Comando 5</li>
+      <li class="list-group-item">Comando 6</li>
+      <li class="list-group-item">Comando 7</li>
+      <li class="list-group-item">Comando 8</li>
+      <li class="list-group-item">Comando 9</li>
+      <li class="list-group-item">Comando 10</li>
+      <li class="list-group-item">Ayuda del sitio</li>
+      <li class="list-group-item">Salir del sitio</li>
+
+    </ul>
+  </div>
+
+<!--Fin Comandos-->
+<!-- Imagen -->
+
+
+<div class="card" id = "contenido">
+    <div class="card-header">Imagen</div>
+    <div class="card-body "  >
+     
+        <section id="animacion1">
+            <div class="container">
+                 <div class="ball"></div>
+                 <img style="width:350px; height:250px; position: absolute; top: 120px; left:200px;" id="img" ></img>
+             </div>
+         </section>
+  
+
+    </div>
+    <div class="card-footer text-muted"><center>
+      <form action="", method="get" target="_blank" id="search-form">
+        <input name="q" type="text" placeholder="Buscar" autocomplete="off" autofocus>
+        
+      </form>
+
+      </center>
+    </form></div>
+    
+  </div>
+  
+
+<!--Fin Imagen-->
+
+
+
+
+   <!-- Footer -->
+<footer class="page-footer font-small fixed-bottom" style=" background-color: #000000">
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3" style="color:white">© Juan Jesús Ávila Mota 17200782
+    </div>
+    <!-- Copyright -->
+</footer>
+<!-- Footer -->
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-filestyle.min.js"> </script>
+
+<script  src="./funcion.js"></script>
+<script  src="funcion.js"></script>
+
+
+
+
+
+</body>
+</html>

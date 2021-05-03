@@ -1,0 +1,37 @@
+.custom-file-input ~ .custom-file-label::after {
+    content: "Elegir";
+}
+#label2{
+width: 50;
+}
+#url{
+    width: 270px;
+    }
+#carga{
+position: absolute;
+top: 70px; left: 50px;
+}
+#comandos{
+    top: 280px; left: 50px;
+}
+#lista{
+    width: 22rem;
+    height: 250px;
+    overflow-y: scroll;
+   
+  }
+#contenido{
+    position: absolute;
+    top: 70px;
+    left: 550px;
+    width: 700px;
+    height: 550px;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url('https://fondosmil.com/fondo/17542.jpg');
+  }
+
+
