@@ -2,17 +2,20 @@
     content: "Elegir";
 }
 #label2{
-width: 50;
+width: 50px;
 }
 #url{
-    width: 270px;
+    position: relative;
+    left: 4%;
+    width: 100%;
     }
 #carga{
 position: absolute;
-top: 70px; left: 50px;
+top: 10%; left: 4%;
 }
 #comandos{
-    top: 280px; left: 50px;
+    position: absolute;
+    top: 50%; left: 4%;
 }
 #lista{
     width: 22rem;
@@ -22,11 +25,12 @@ top: 70px; left: 50px;
   }
 #contenido{
     position: absolute;
-    top: 70px;
-    left: 550px;
-    width: 700px;
-    height: 550px;
+    top: 10%;
+    left: 40%;
+    width: 55%;
+    height: 80%;
 }
+
 
 body {
     height: 100%;
